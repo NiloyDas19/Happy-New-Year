@@ -69,3 +69,41 @@
     max-height: 500px;
 }
 
+
+/* party section styles  */
+.party-section{
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("../resources/Vectorrr.png");
+    background-repeat: no-repeat;
+    max-width: 1320px;
+    max-height: 600px;
+    margin: 50px 140px;
+    border-radius: 16px;
+    padding: 126px 552px 126px 126px;
+}
+
+.party-section-title{
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.party-section-description{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+.party-section-btn{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    background: none;
+    border: 0px;
+    margin-top: 50px;
+}
