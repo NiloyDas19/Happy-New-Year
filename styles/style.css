@@ -7,7 +7,7 @@
 
 /* header and banner style */
 .banner {
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url("../resources/Banner_Image.png");
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Banner_Image.png");
     background-repeat: no-repeat;
     max-width: 1320px;
     max-height: 600px;
@@ -32,4 +32,40 @@
     font-weight: 900;
 }
 
+
+/* offer section styles */
+
+.offer-section {
+    margin: 70px 400px;
+}
+
+.offer-sixty-five {
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.offer-section-subtitle {
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 48px;
+}
+
+.offer-section-title {
+    color: #070211;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.offer-section-img{
+    max-width: 800px;
+    max-height: 500px;
+}
 
