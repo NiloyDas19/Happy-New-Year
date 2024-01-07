@@ -81,6 +81,10 @@
     padding: 126px 552px 126px 126px;
 }
 
+.party-section-container{
+    display: flex;
+}
+
 .party-section-title {
     color: #FFF;
     font-family: 'Merriweather', serif;
@@ -107,6 +111,7 @@
     border: 0px;
     margin-top: 50px;
 }
+
 
 
 /* join now  section styles  */
@@ -216,3 +221,4 @@
 .coming-soon-item-happy-img{
     margin-top: 45px;
 }
+
