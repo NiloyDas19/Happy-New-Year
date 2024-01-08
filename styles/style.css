@@ -74,7 +74,7 @@
 /* party section styles  */
 .party-section {
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Vectorrr.png");
-    background-repeat: no-repeat , no-repeat;
+    background-repeat: no-repeat, no-repeat;
     background-size: cover;
     position: relative;
     justify-content: center;
@@ -82,12 +82,12 @@
     border-radius: 16px;
 }
 
-.party-section-container{
+.party-section-container {
     display: flex;
     gap: 10px;
 }
 
-.party-section-item{
+.party-section-item {
     padding: 100px 100px;
 }
 
@@ -118,7 +118,7 @@
     margin-top: 50px;
 }
 
-.party-section-image{
+.party-section-image {
     padding-top: 75px;
     padding-bottom: 65px;
     padding-right: 145px;
@@ -183,7 +183,7 @@
     text-align: left;
 }
 
-.coming-soon-item{
+.coming-soon-item {
     max-width: 300px;
 }
 
@@ -196,14 +196,14 @@
     margin-top: 100px;
 }
 
-.coming-soon-item-title{
+.coming-soon-item-title {
     color: #070211;
     font-family: 'Merriweather', serif;
     font-size: 40px;
     font-weight: 900;
 }
 
-.coming-soon-item-description{
+.coming-soon-item-description {
     margin-top: 22px;
     color: rgba(7, 2, 17, 0.60);
     font-family: 'Inter', sans-serif;
@@ -222,7 +222,7 @@
     border-radius: 100%;
 }
 
-.coming-soon-item-year{
+.coming-soon-item-year {
     margin-top: 100px;
     color: #F00;
     font-family: 'Inter', sans-serif;
@@ -230,7 +230,115 @@
     font-weight: 700;
 }
 
-.coming-soon-item-happy-img{
+.coming-soon-item-happy-img {
     margin-top: 45px;
+}
+
+/* holiday sale section styles  */
+.holiday-sale {
+    text-align: center;
+    margin: 70px 140px;
+}
+
+.holiday-sale-subtitle {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.holiday-sale-title {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.holiday-sale span {
+    color: #F00;
+}
+
+.holiday-sale-description {
+    margin-top: 30px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.holiday-sale-image-container {
+    background-image: url("../resources/Rectangle_2.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 30%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.img1 {
+    width: 300px;
+}
+
+.img2 {
+    width: 100px;
+    position: relative;
+    z-index: 1;
+}
+
+.img3 {
+    width: 300px;
+}
+
+
+/* Best Gift Section Styles */
+
+.best-gift {
+    margin: 50px 140px;
+    text-align: left;
+}
+
+.best-gift-subtitle {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.best-gift-title {
+    margin-top: 16px;
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.best-gift-description {
+    margin-top: 22px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.best-gift-image-container{
+    margin-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.best-gift-image{
+    width: 30%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 16px;
+}
+
+.best-gift-image img{
+    width: 100%;
+}
+
+.best-gift-image :hover{
+    box-shadow: 5px 5px 8px 8px  #427E93;
 }
 
