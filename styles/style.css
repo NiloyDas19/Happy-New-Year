@@ -179,12 +179,14 @@
 .coming-soon-container {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
     text-align: left;
+    align-items: center;
+    gap: 10px;
 }
 
 .coming-soon-item {
-    max-width: 300px;
+    width: 31%;
+    margin: 15px;
 }
 
 .coming-soon-item-subtitle {
@@ -193,7 +195,6 @@
     font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 500;
-    margin-top: 100px;
 }
 
 .coming-soon-item-title {
@@ -212,18 +213,17 @@
 }
 
 .coming-soon-item-img-container {
-    max-width: 300px;
+    max-width: 330px;
 }
 
 .coming-soon-friend-img {
-    width: 300px;
+    width: 330px;
     padding: 10px;
-    border: 5px solid red;
+    border: 7px solid red;
     border-radius: 100%;
 }
 
 .coming-soon-item-year {
-    margin-top: 100px;
     color: #F00;
     font-family: 'Inter', sans-serif;
     font-size: 35px;
