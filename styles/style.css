@@ -401,3 +401,38 @@
     padding: 24px 56px;
 }
 
+
+/* footer section styles */
+
+footer{
+    background-color: #070211;;
+    max-width: 1600px;
+}
+
+.footer-heading-part, .footer-footer-part{
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 70px 140px;
+}
+
+.footer-icon-part{
+    text-align: center;
+}
+
+.footer-icon{
+    margin: 50px 20px;
+}
+
+hr{
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.line{
+    margin: 50px 140px;
+}
+
