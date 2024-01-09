@@ -291,13 +291,13 @@
     background-repeat: no-repeat;
     position: relative;
     border-radius: 16px;
-    max-height: 660px;
+    height: 660px;
 }
 
 .holiday-sale-image1{
     position: absolute;
-    max-width: 675px;
-    max-height: 535px;
+    width: 675px;
+    height: 535px;
     left: 35px;
     top: 90px;
 }
@@ -441,7 +441,7 @@ footer{
     justify-content: space-between;
     color: #FFF;
     font-family: 'Inter', sans-serif;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 500;
     padding: 70px 140px;
 }
@@ -455,7 +455,7 @@ footer{
 }
 
 hr{
-    height: 1px;
+    height: 0.8px;
     background: rgba(255, 255, 255, 0.15);
 }
 
